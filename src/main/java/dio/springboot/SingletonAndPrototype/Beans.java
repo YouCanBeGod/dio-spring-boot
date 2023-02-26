@@ -9,7 +9,7 @@ public class Beans {
     @Bean
     @Scope("prototype")
     public Remetente remetente() {
-        System.out.println("CRIANDO UM OBRJETO REMETENTE");
+        System.out.println("CRIANDO UM OBJETO REMETENTE");
         Remetente remetente = new Remetente();
         remetente.setEmail("noreply@dio.com.br");
         remetente.setNome("Digital Innovation One");
